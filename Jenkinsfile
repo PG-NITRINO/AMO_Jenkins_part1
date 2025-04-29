@@ -4,7 +4,7 @@ pipeline {
 	stages {
 		stage('Checkout') {
 			steps {
-				git url:'<URL>', branch: 'main'
+				git url:'https://github.com/PG-NITRINO/AMO_Jenkins_part1.git', branch: 'main'
 			}
 		}
 		stage('Install') {
